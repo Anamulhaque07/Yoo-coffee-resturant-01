@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    background: #000000e2;
+    justify-content: space-between;
+    padding: 2px 17px;
+}
+/* #navbar::before{
+    content: "";
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4; */
+}
+/* Navigation bar: logo and img  */
+#logo{
+margin: 8px 22px;
+}
+#logo img{
+    margin: 1px 6px;
+    height: 46px;
+    width: 54px;
+}
+/* navigation bar: list styleing  */
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: #ffd200;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#navbar ul li a:hover{
+    color:#ffd200;
+    background: rgb(196, 196, 196);
+}
+/* Home section  */
+#Home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 200px;
+   background:hsl(49, 100%, 50%);
+   height: 325px;
+}
+#Home p{
+    margin: 15px 0px;
+    font-size: 1.4rem;
+    text-align: justify;
+    font-family: 'Bree Serif', serif;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+
+}
+#btn{
+    padding: 5px 24px;
+    border: 2px solid black;
+    background: #212121a6;
+    color: hsl(49, 100%, 50%);
+    border-radius: 15px;
+    margin: 10px 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+/* section container  */
+#three-img-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+#service .box{
+    width: 335px;
+    border: 2px solid rgb(196, 153, 153);
+    margin: 5px;
+    padding: 5px 27px;
+    border-radius: 25px;
+    background: rgb(241, 241, 241);
+}
+
+#service .box img{
+    height: 115px;
+    margin: auto;
+    display: block;
+}
+#service .box h2{
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 1.2rem;
+    
+}
+#service .box p{
+    text-align: center;
+    font-size: 1rem;
+}
+.services-container .h-primary-service{
+    text-align: center;
+    padding: 5px;
+    margin: 15px 0px;
+    font-size: 2.5rem;
+}
+/* client-section  */
+#clients-section{
+    height: 276px;
+    /* background:url(../img/1.jpg) no-repeat center center/cover; */
+    /* backdrop-filter: blu(2px); */
+}
+#clients-section::before{
+    content: "";
+    position: absolute;
+    background: url(../img/pexels-craig-adderley-1724194.jpg) no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#clients-section h1{
+    color:#ffd200 ;
+    text-align: center;
+    font-size: 2.5rem;
+    /* margin: 30px 0px; */
+    padding: 33px 0px 5px 0px
+}
+#clients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 15px 5px; */
+    padding: 10px;
+}
+#clients img{
+    height: 100px;
+    /* width: 100px; */
+    margin: 15px;
+    padding: 10px;
+}
+
+/* contact area  */
+#contact h1{
+    text-align: center;
+    /* margin: 15px 5px; */
+    padding: 10px 5px;
+    font-size: 2.5rem;
+}
+#contact::before{
+    content: "";
+    background:rgb(216, 216, 216);
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+#contact-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 5px; */
+}
+#contact-box .form-group{
+    margin:10px 5px;
+}
+#contact input,
+#contact textarea{
+    width: 100%;
+    padding: 2px 1px;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+#footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
